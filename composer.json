@@ -1,0 +1,22 @@
+{
+    "name": "evaluation",
+
+    "minimum-stability": "dev",
+
+    "require": {
+        "zendframework/zend-stdlib": "2.4.*@dev",
+        "zendframework/zend-loader": "2.4.*@dev",
+        "zendframework/zend-modulemanager": "2.4.*@dev",
+        "zendframework/zend-mvc": "2.4.*@dev",
+        "zendframework/zend-servicemanager": "2.4.*@dev",
+        "zendframework/zend-test": "2.4.*@dev",
+        "phpunit/dbunit": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Evaluation\\": "src/",
+            "EvaluationTests\\": "tests/"
+        }
+    }
+}
